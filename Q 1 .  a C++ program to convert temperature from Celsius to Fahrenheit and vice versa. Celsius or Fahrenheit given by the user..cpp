@@ -16,13 +16,13 @@ int main() {
         cout << "Enter temperature in Celsius: ";
         cin >> temperature;
         converted = (temperature * 9.0 / 5.0) + 32.0;
-        cout << "Temperature in Fahrenheit: " << converted << "°F\n";
+        cout << "Temperature in Fahrenheit: " << converted << "Â°F\n";
     } 
     else if (choice == 'F' || choice == 'f') {
         cout << "Enter temperature in Fahrenheit: ";
         cin >> temperature;
         converted = (temperature - 32.0) * 5.0 / 9.0;
-        cout << "Temperature in Celsius: " << converted << "°C\n";
+        cout << "Temperature in Celsius: " << converted << "Â°C\n";
     } 
     else {
         cout << "Invalid choice! Please enter 'C' or 'F'.\n";
